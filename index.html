@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" >
+    <title>Raamish's Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300|Raleway:300,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>   
+    <script type="text/javascript" src="assets/js/main.js"></script>    
+  </head>
+
+  <body>
+    
+    <header class="header container-fluid">
+      <div class="nav-toggle-wrapper">
+        <button class="nav-toggle-btn">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </div>
+      <nav class="header__nav">
+        <ul class="nav">
+          <li class="header__nav__item"><a href="#about" data-ref="about">about</a></li>
+          <li class="header__nav__item"><a href="#portfolio" data-ref="portfolio">work</a></li>
+          <li class="header__nav__item"><a href="#contact" data-ref="contact">contact</a></li>
+        </ul>
+      </nav>
+      <ul class="header__social-btns">
+        <li> <a class="fa fa-facebook" href="https://www.facebook.com/raamish.malik"></a> </li>
+        <li> <a class="fa fa-github" href="https://github.com/raamish" target="_blank" ></a> </li>
+      </ul>
+    </header>
+    
+    <main>
+    
+      <section id="about" class="main-section">
+        <div class="wrapper">
+          <p class="about__intro">
+            Hi, I'm Raamish Malik and I am currently in the third year of my B.Tech degree in Computer Science from Manipal Institute of Technology, India <br>
+            I have a knack for everything the internet touches and I usually foray into Web Development, FOSS and Deep Learning.<br>
+            If you have something of similar interests, feel free to contact me!
+          </p>
+          <a href="#portfolio" class="global-button rotated scroll"> see my work </a>
+        </div>
+      </section>
+      
+      <section id="portfolio" class="container main-section">
+        <div class="filters row js-dis">
+          <h4 class="filters__title"> <i class="fa fa-tags"></i> </h4>
+          <ul class="filters__list">
+            <li class="filters__label is-active"> all </li>
+            <li class="filters__label" data-cat="fcc"> Official Work</li>
+            <li class="filters__label" data-cat="personal"> Personal Projects </li>
+          </ul>
+        </div>
+        
+        <div class="portfolio__project-wrapper row">
+        
+          <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4 text-center" data-cat="fcc">
+            <a href="http://codepen.io/eevu/full/BoGMJm/" target="_blank" title="view live">
+              <div class="portfolio__project__preview">
+                <img src="images/quotes.svg" alt="random quotes"> 
+              </div>
+              <div class="portfolio__project__description">
+                <div class="info-wrapper">
+                  <h3 class="portfolio__project__name">Random Quotes</h3>
+                  <p class="portfolio__project__category"> #free code camp</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+          <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="fcc">
+            <a href="#" target="_blank" title="coming soon">
+              <div class="portfolio__project__preview">
+                <img src="images/calc.svg" alt="javascript calculator">
+              </div>
+              <div class="portfolio__project__description">
+                <div class="info-wrapper">
+                  <h3 class="portfolio__project__name">JavaScript Calculator</h3>
+                  <p class="portfolio__project__category"> #free code camp</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+          <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+            <a href="#" target="_blank" title="coming soon">
+              <div class="portfolio__project__preview">
+                <img src="images/txt.svg" alt="text editor"> 
+              </div>
+              <div class="portfolio__project__description">
+                <div class="info-wrapper">
+                  <h3 class="portfolio__project__name">Text Editor</h3>
+                  <p class="portfolio__project__category">#personal project</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+          <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+            <a href="https://en.wikipedia.org/wiki/Bacteriophage" target="_blank" title="what's a becteriophage?">
+              <div class="portfolio__project__preview">
+                <img src="images/bacteriophage.svg" alt="random placeholder">
+              </div>
+              <div class="portfolio__project__description">
+                <div class="info-wrapper">
+                  <h3 class="portfolio__project__name"> Bacteriophage</h3>
+                  <p class="portfolio__project__category">#placeholder</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+          <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+            <a href="#" target="_blank" title="coming soon">
+              <div class="portfolio__project__preview">
+                <img src="images/desktop.svg" alt="random placeholder">
+              </div>
+              <div class="portfolio__project__description">
+                <div class="info-wrapper">
+                  <h3 class="portfolio__project__name"> Desktop </h3>
+                  <p class="portfolio__project__category">#placeholder</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+          <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+            <a href="#" target="_blank" title="coming soon">
+              <div class="portfolio__project__preview">
+                <img src="images/laptop.svg" alt="random placeholder">
+              </div>
+              <div class="portfolio__project__description">
+                <div class="info-wrapper">
+                  <h3 class="portfolio__project__name"> Laptop </h3>
+                  <p class="portfolio__project__category">#placeholder</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+        </div> 
+        
+      </section>
+    
+    </main>
+    
+    <footer class="container">
+      <section id="contact" class="row main-section">
+        <div class="col-xs-12 col-md-5 contact-form-wrapper">
+          <h2 class="heading"> drop me a line </h2>
+          <form class="contact-form" action="https://formspree.io/raamish.malik@gmail.com" method="POST">
+            <div class="contact-form-el">
+              <input type="text" id="name" class="input" required></input>
+              <label for="name"> your name </label>
+            </div>
+            <div class="contact-form-el">
+              <input type="email" id="email" class="input" required></input>
+              <label for="email"> your e-mail </label>
+            </div>
+            <div class="contact-form-el">
+              <textarea rows="7" id="message" class="input" required></textarea>
+              <label for="message"> your message </label>
+            </div>
+            <div class="text-right">
+              <button type="submit" class="global-button"> send </button>
+            </div>
+            <input type="hidden" name="_next" value="raamish.github.io" />
+          </form>
+        </div>
+      </section>
+      
+      <section id="credit" class="row">
+        <p>
+          Made with &#10085; by Raamish Malik &copy;2017
+        </p>
+      </section>
+    </footer>
+     
+    
+  </body>
+
+</html>
