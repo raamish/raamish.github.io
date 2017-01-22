@@ -107,7 +107,7 @@ a.global-button,
 	display: inline-block;
 	position: relative;
 	top: .2em; bottom: 0;
-	background: url('https://eevu.github.io/images/arrow.svg') no-repeat;
+	background: url('../../images/arrow.svg') no-repeat;
 	background-position: center;
 	background-size: cover;
 	
@@ -194,15 +194,15 @@ body {
 }
 
 .header__nav__item > a[data-ref='about']::before {
-  content:url('images/about_icon.svg');
+  content:url('../../images/about_icon.svg');
 }
 
 .header__nav__item > a[data-ref='portfolio']::before {
-  content:url('images/portfolio_icon.svg');
+  content:url('../../images/portfolio_icon.svg');
 }
 
 .header__nav__item > a[data-ref='contact']::before {
-  content:url('images/contact_icon.svg');
+  content:url('../../images/contact_icon.svg');
 }
 
 .header__nav__item > a:hover::before,
@@ -591,7 +591,7 @@ footer {
 }
 
 
-#map {
+/*#map {
 	padding: 0;
 	background-color: #f7fbde;
 	height: 20em;
@@ -600,7 +600,7 @@ footer {
 	#map {
 		height: 25em;
 	}
-}
+}*/
 
 footer > #credit {
 	font-size: 0.8em;
