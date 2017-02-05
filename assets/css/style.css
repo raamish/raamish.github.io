@@ -591,16 +591,6 @@ footer {
 }
 
 
-/*#map {
-	padding: 0;
-	background-color: #f7fbde;
-	height: 20em;
-}
-@media (min-width: 768px) {
-	#map {
-		height: 25em;
-	}
-}*/
 
 footer > #credit {
 	font-size: 0.8em;
