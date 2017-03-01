@@ -74,7 +74,7 @@ a.global-button,
 .heading,
 .header__nav {
 	font-size: 1.7em;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;	
 }
 
 a.global-button,
@@ -328,7 +328,7 @@ body {
 /*** About Section ***/
 #about { 
 	display: flex;
-	min-height: 100vh;
+	min-height: 60vh;
 }
 
 #about .wrapper {
@@ -603,5 +603,10 @@ footer > #credit {
 }
 
 .credit-link:hover {
-  color: #51e6a6;
+  color: #000000;
+}
+
+/*Hit counter*/
+.scam {
+	font-color: white;
 }
